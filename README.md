@@ -2,7 +2,7 @@
 A simple web app that randomly generates a color and displays its HEX code. Users can click a button to generate a new random color.
 
 ## Demo
-You can view a live demo of the app here: [link to live demo]
+You can view a live demo of the app here: ***
 
 ## Technologies Used
 This project was built using HTML, CSS, and JavaScript. It also uses the Bootstrap framework for styling.
