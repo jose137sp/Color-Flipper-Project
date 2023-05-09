@@ -1,0 +1,26 @@
+.container {
+    position: absolute;
+    /* Establece la caja como position:absolute */
+    top: 50%;
+    /* Centra la caja verticalmente en el centro del contenedor */
+    left: 50%;
+    /* Centra la caja horizontalmente en el centro del contenedor */
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    /* Tamaño fijo del contenedor */
+    margin: auto;
+    /* Margen automático en todas las direcciones para centrar */
+    background-color: white;
+    /* Fondo blanco */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    /* Sombra */
+    padding: 20px;
+    /* Espacio interno */
+    text-align: center;
+    /* Centrar el contenido */
+}
