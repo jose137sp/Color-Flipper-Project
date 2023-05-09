@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .container {
     position: absolute;
     /* Establece la caja como position:absolute */
@@ -11,11 +15,11 @@
     align-items: center;
     width: 50px;
     /* Tamaño fijo del contenedor */
-    margin: auto;
+    margin: 0 200px;
     /* Margen automático en todas las direcciones para centrar */
     background-color: white;
     /* Fondo blanco */
-    border-radius: 8px;
+    border-radius: 5px;
     /* Bordes redondeados */
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
     /* Sombra */
@@ -23,4 +27,15 @@
     /* Espacio interno */
     text-align: center;
     /* Centrar el contenido */
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    /* Estilos para pantallas con ancho máximo de 600px */
+    .container {
+        font-size: 20px;
+        padding: 0px;
+        margin: 0 10px;
+    }
 }
